@@ -1,0 +1,39 @@
+{
+  "name": "career-positioning-os",
+  "version": "0.1.0",
+  "description": "Career Positioning OS packages public-safe skills and schemas for turning private work evidence into career signal.",
+  "author": {
+    "name": "Arthur Zakirov",
+    "url": "https://github.com/ArthurZakirov"
+  },
+  "homepage": "https://github.com/ArthurZakirov/career-positioning-os",
+  "repository": "https://github.com/ArthurZakirov/career-positioning-os",
+  "license": "MIT",
+  "keywords": [
+    "skills",
+    "codex",
+    "claude-code",
+    "career",
+    "portfolio",
+    "resume"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Career Positioning OS",
+    "shortDescription": "Skills for turning work evidence into career signal",
+    "longDescription": "Public-safe skills, schemas, and examples for converting private work evidence into resume, LinkedIn, portfolio, interview, and recruiter artifacts.",
+    "developerName": "Arthur Zakirov",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/ArthurZakirov/career-positioning-os",
+    "defaultPrompt": [
+      "Turn this achievement into a confidentiality-safe long-form article draft.",
+      "Review this career evidence for public/private boundary risks.",
+      "Structure this project story as reusable career evidence."
+    ],
+    "brandColor": "#0F766E"
+  }
+}

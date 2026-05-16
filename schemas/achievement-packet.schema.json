@@ -1,0 +1,189 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/career-positioning-os/schemas/achievement-packet.schema.json",
+  "title": "Achievement Packet",
+  "description": "Public-safe schema for structuring private career evidence before turning it into resume, LinkedIn, portfolio, recruiter, or interview artifacts.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "title",
+    "status",
+    "privacy",
+    "source_files",
+    "one_line_private",
+    "one_line_public",
+    "metrics",
+    "caveats",
+    "target_role_signals"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "description": "Stable slug for the achievement."
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "shipped",
+        "production_ready",
+        "locally_functional",
+        "in_progress",
+        "planned",
+        "historical"
+      ]
+    },
+    "privacy": {
+      "type": "string",
+      "enum": [
+        "private",
+        "sanitizable",
+        "public_safe"
+      ]
+    },
+    "source_files": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "one_line_private": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Private factual summary. Do not publish without review."
+    },
+    "one_line_public": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Sanitized summary intended as the starting point for public-facing outputs."
+    },
+    "situation": {
+      "type": "string"
+    },
+    "stakes": {
+      "type": "string"
+    },
+    "constraints": {
+      "type": "string"
+    },
+    "actions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "mechanism": {
+      "type": "string"
+    },
+    "results": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "metrics": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "value",
+          "confidence",
+          "public_safe",
+          "caveat"
+        ],
+        "properties": {
+          "value": {
+            "type": "string",
+            "minLength": 1
+          },
+          "confidence": {
+            "type": "string",
+            "enum": [
+              "exact",
+              "approximate",
+              "directional"
+            ]
+          },
+          "public_safe": {
+            "type": "boolean"
+          },
+          "caveat": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "caveats": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "proof_sources": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "target_role_signals": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "enum": [
+          "ai_developer_productivity",
+          "agentic_workflow_design",
+          "production_agentic_automation",
+          "human_in_the_loop_systems",
+          "workflow_diagnosis",
+          "tool_api_integration",
+          "stakeholder_enablement",
+          "business_operational_leverage",
+          "technical_communication",
+          "speed_under_ambiguity",
+          "adoption_and_rollout",
+          "evaluation_and_guardrails"
+        ]
+      }
+    },
+    "safe_abstractions": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "output_views": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "resume_bullet": {
+          "type": "string"
+        },
+        "linkedin_bullet": {
+          "type": "string"
+        },
+        "interview_story": {
+          "type": "string"
+        },
+        "article_angle": {
+          "type": "string"
+        },
+        "portfolio_case_study_angle": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

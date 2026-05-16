@@ -1,0 +1,93 @@
+# Public-safe dummy data. Replace with your own private evidence in a private repo.
+
+- id: internal-search-workflow
+  title: Internal search workflow
+  status: shipped
+  privacy: public_safe
+  source_files:
+    - examples/source-notes/internal-search-workflow.md
+  one_line_private: Built an internal search workflow for a fictional operations team using ticket metadata, documentation snippets, and human approval.
+  one_line_public: Built a search-assisted workflow that helped an operations team find relevant internal context faster while keeping humans in control.
+  situation: A fictional operations team repeatedly searched across scattered documentation and tickets before answering routine requests.
+  stakes: Slow context retrieval delayed responses and made repeated work hard to improve.
+  constraints: Source material was inconsistent, sensitive, and too broad to automate end-to-end safely.
+  actions:
+    - Interviewed operators to identify repeated lookup patterns.
+    - Grouped request types into a small taxonomy.
+    - Built a retrieval workflow that suggested relevant context and drafted a response for human review.
+    - Captured edge cases and rejection reasons for later improvement.
+  mechanism: Retrieve context first, draft second, require human approval before action.
+  results:
+    - Reduced repeated manual searching for common requests.
+    - Created a reusable workflow pattern for future request types.
+  metrics:
+    - value: "30-45 minutes saved per common request"
+      confidence: directional
+      public_safe: true
+      caveat: Fictional example number; replace with verified private evidence in real use.
+  caveats:
+    - This is dummy data and should not be represented as a real achievement.
+    - Time savings are illustrative, not measured.
+    - Human approval remains required for final responses.
+  proof_sources:
+    - Fictional source notes
+  target_role_signals:
+    - workflow_diagnosis
+    - human_in_the_loop_systems
+    - tool_api_integration
+    - technical_communication
+  safe_abstractions:
+    organization: fictional operations team
+    systems: documentation, ticket metadata, and approval workflow
+  output_views:
+    resume_bullet: ""
+    linkedin_bullet: ""
+    interview_story: ""
+    article_angle: ""
+    portfolio_case_study_angle: ""
+
+- id: deployment-checklist-automation
+  title: Deployment checklist automation
+  status: locally_functional
+  privacy: public_safe
+  source_files:
+    - examples/source-notes/deployment-checklist-automation.md
+  one_line_private: Turned a fictional deployment checklist into a local assistant that verifies prerequisites and drafts a deployment note.
+  one_line_public: Converted a manual deployment checklist into a local assistant that checks prerequisites and prepares a human-reviewed deployment note.
+  situation: A fictional team had a checklist-driven release process with repeated manual checks.
+  stakes: Missing a precondition could delay the release or create avoidable follow-up work.
+  constraints: The assistant could verify some prerequisites but should not deploy or notify stakeholders without approval.
+  actions:
+    - Converted the checklist into explicit preconditions.
+    - Added local verification commands.
+    - Drafted a release note template from checked items.
+    - Kept final deployment and notification as human-approved steps.
+  mechanism: Turn checklist items into executable checks, then use the checked state to draft the next action.
+  results:
+    - Made the checklist easier to run consistently.
+    - Preserved human control over release execution.
+  metrics:
+    - value: "local prototype"
+      confidence: exact
+      public_safe: true
+      caveat: Locally functional example; not a deployed service.
+  caveats:
+    - This is dummy data and should not be represented as a real achievement.
+    - The assistant verifies prerequisites but does not perform release actions.
+  proof_sources:
+    - Fictional source notes
+  target_role_signals:
+    - ai_developer_productivity
+    - evaluation_and_guardrails
+    - human_in_the_loop_systems
+    - speed_under_ambiguity
+  safe_abstractions:
+    organization: fictional software team
+    systems: local command-line checks and release note template
+  output_views:
+    resume_bullet: ""
+    linkedin_bullet: ""
+    interview_story: ""
+    article_angle: ""
+    portfolio_case_study_angle: ""
+

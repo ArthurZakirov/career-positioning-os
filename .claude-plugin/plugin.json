@@ -1,0 +1,19 @@
+{
+  "name": "career-positioning-os",
+  "description": "Career Positioning OS packages public-safe skills for turning private work evidence into career signal.",
+  "author": {
+    "name": "Arthur Zakirov",
+    "url": "https://github.com/ArthurZakirov"
+  },
+  "homepage": "https://github.com/ArthurZakirov/career-positioning-os",
+  "repository": "https://github.com/ArthurZakirov/career-positioning-os",
+  "license": "MIT",
+  "keywords": [
+    "skills",
+    "claude-code",
+    "career",
+    "portfolio",
+    "resume"
+  ],
+  "skills": "./skills/"
+}
