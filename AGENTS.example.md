@@ -43,3 +43,13 @@ python3 scripts/validate_linkedin_assets.py content
 ```
 
 Do not remove blank lines just to satisfy a LinkedIn character limit when the configured count mode ignores newlines. Compress actual words instead.
+
+## RenderCV
+
+For PDF resume rendering, do not reimplement RenderCV. Use `rendercv-resume-handoff` to prepare Career Positioning OS content, then use the external `rendercv` skill from `rendercv/rendercv-skill`.
+
+Install it when needed:
+
+```bash
+npx skills add rendercv/rendercv-skill --skill rendercv -a codex -g -y
+```

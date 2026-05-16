@@ -17,13 +17,14 @@
     "portfolio",
     "resume",
     "linkedin",
-    "personal-brand"
+    "personal-brand",
+    "rendercv"
   ],
   "skills": "./skills/",
   "interface": {
     "displayName": "Career Positioning OS",
     "shortDescription": "Skills for turning work evidence into career signal",
-    "longDescription": "Public-safe skills, schemas, validators, and examples for converting private work evidence into resume, LinkedIn, portfolio, interview, recruiter, profile, article, post, and visual brand artifacts.",
+    "longDescription": "Public-safe skills, schemas, validators, and examples for converting private work evidence into resume, LinkedIn, portfolio, interview, recruiter, profile, article, post, visual brand, and RenderCV handoff artifacts.",
     "developerName": "Arthur Zakirov",
     "category": "Productivity",
     "capabilities": [
@@ -34,6 +35,7 @@
     "defaultPrompt": [
       "Turn this achievement into a confidentiality-safe long-form article draft.",
       "Draft and validate a LinkedIn About section from sanitized achievement evidence.",
+      "Prepare resume-ready content for a RenderCV YAML and PDF handoff.",
       "Review this career evidence for public/private boundary risks.",
       "Structure this project story as reusable career evidence."
     ],

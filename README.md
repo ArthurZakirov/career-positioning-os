@@ -26,6 +26,7 @@ The skills encode reusable writing and persuasion principles: consulting-style t
 - Turn one achievement source into different persuasive views for different audiences.
 - Create LinkedIn profile bios, About sections, Experience bullets, project descriptions, posts, articles, and visual/banner specs.
 - Format and validate LinkedIn-ready assets against editable character limits and image specs.
+- Hand off resume-ready content to RenderCV for YAML-driven PDF rendering without reimplementing RenderCV.
 - Keep the agent focused on representation principles instead of generic resume-writing advice.
 
 This repo contains public-safe methodology and skills. Your real evidence belongs in a private repo.
@@ -63,6 +64,7 @@ Use article-leverage-story to turn this achievement packet into a confidentialit
 Use curiosity-bio-story to draft a LinkedIn About section from this sanitized achievement packet.
 Use impact-bullets to turn this achievement packet into LinkedIn Experience bullets.
 Use linkedin-content-validation to save, format, validate, and repair LinkedIn-ready content files.
+Use rendercv-resume-handoff to turn resume-ready content into a RenderCV handoff.
 ```
 
 The skills cover long-form project stories, profile bios, resume and LinkedIn bullets, audience positioning, repeatable work-model articulation, project/profile README positioning, visual banner specs, and compression to strict limits.
@@ -83,6 +85,25 @@ python3 scripts/validate_linkedin_assets.py content --config config/linkedin_lim
 ```
 
 See `docs/linkedin_content_workflow.md` for the full repair loop.
+
+## RenderCV Resume Rendering
+
+This repo does not reimplement resume rendering. Use Career Positioning OS to prepare truthful, compressed, public-safe resume content, then use RenderCV for the YAML schema and PDF output.
+
+Install the external RenderCV skill:
+
+```bash
+npx skills add rendercv/rendercv-skill --skill rendercv -a codex -g -y
+```
+
+Then use:
+
+```text
+Use rendercv-resume-handoff to prepare the resume content handoff.
+Use rendercv to create or edit the RenderCV YAML file and render the PDF.
+```
+
+See `docs/rendercv_resume_workflow.md`.
 
 ## Keep Private Data Out
 

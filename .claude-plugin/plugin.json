@@ -15,7 +15,8 @@
     "portfolio",
     "resume",
     "linkedin",
-    "personal-brand"
+    "personal-brand",
+    "rendercv"
   ],
   "skills": "./skills/"
 }
