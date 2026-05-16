@@ -1,0 +1,80 @@
+platform: linkedin
+
+character_limits:
+  profile_headline:
+    max_chars: 220
+    count_mode: non_newline_unicode_codepoints
+    description: "LinkedIn headline / one-liner below the name."
+
+  about:
+    max_chars: 2600
+    count_mode: non_newline_unicode_codepoints
+    description: "LinkedIn About section / profile bio."
+
+  experience_description:
+    max_chars: 2000
+    count_mode: non_newline_unicode_codepoints
+    description: "Description for one LinkedIn Experience entry."
+
+  project_title:
+    max_chars: 100
+    count_mode: non_newline_unicode_codepoints
+    description: "LinkedIn project title. Practical default; verify periodically."
+
+  project_description:
+    max_chars: 2000
+    count_mode: non_newline_unicode_codepoints
+    description: "LinkedIn project description. Practical default; verify periodically."
+
+  post:
+    max_chars: 3000
+    count_mode: non_newline_unicode_codepoints
+    description: "Standard LinkedIn post."
+
+  comment:
+    max_chars: 1250
+    count_mode: non_newline_unicode_codepoints
+    description: "LinkedIn comment."
+
+  article_title:
+    max_chars: 150
+    count_mode: non_newline_unicode_codepoints
+    description: "LinkedIn article/newsletter headline."
+
+  article_body:
+    max_chars: 110000
+    count_mode: non_newline_unicode_codepoints
+    description: "LinkedIn long-form article body. Hard technical max; keep editable."
+
+soft_targets:
+  article_body:
+    ideal_min_chars: 4000
+    ideal_max_chars: 12000
+    description: "Recommended readable range for LinkedIn articles. Hard max remains 110000."
+
+image_specs:
+  profile_banner:
+    width: 1584
+    height: 396
+    aspect_ratio: "4:1"
+    description: "LinkedIn profile background/banner."
+
+  profile_photo:
+    min_width: 400
+    min_height: 400
+    require_square: true
+    description: "LinkedIn profile photo; should survive circular crop."
+
+  article_cover:
+    allow_custom: true
+    description: "Article/project/post images can vary. Validate explicit dimensions if the YAML file declares width/height."
+
+formatting:
+  linkedin_readability:
+    insert_blank_line_between_sections: true
+    insert_blank_line_between_numbered_steps: true
+    insert_blank_line_before_bullets: true
+    preserve_bullets: true
+    preferred_bullets: ["•", "-"]
+    max_dense_paragraph_chars: 420
+    collapse_more_than_two_blank_lines: true

@@ -15,13 +15,15 @@
     "claude-code",
     "career",
     "portfolio",
-    "resume"
+    "resume",
+    "linkedin",
+    "personal-brand"
   ],
   "skills": "./skills/",
   "interface": {
     "displayName": "Career Positioning OS",
     "shortDescription": "Skills for turning work evidence into career signal",
-    "longDescription": "Public-safe skills, schemas, and examples for converting private work evidence into resume, LinkedIn, portfolio, interview, and recruiter artifacts.",
+    "longDescription": "Public-safe skills, schemas, validators, and examples for converting private work evidence into resume, LinkedIn, portfolio, interview, recruiter, profile, article, post, and visual brand artifacts.",
     "developerName": "Arthur Zakirov",
     "category": "Productivity",
     "capabilities": [
@@ -31,6 +33,7 @@
     "websiteURL": "https://github.com/ArthurZakirov/career-positioning-os",
     "defaultPrompt": [
       "Turn this achievement into a confidentiality-safe long-form article draft.",
+      "Draft and validate a LinkedIn About section from sanitized achievement evidence.",
       "Review this career evidence for public/private boundary risks.",
       "Structure this project story as reusable career evidence."
     ],

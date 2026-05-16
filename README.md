@@ -24,6 +24,8 @@ The skills encode reusable writing and persuasion principles: consulting-style t
 - Keep private evidence separate from public methodology.
 - Draft long-form project stories with narrative tension and reusable takeaways.
 - Turn one achievement source into different persuasive views for different audiences.
+- Create LinkedIn profile bios, About sections, Experience bullets, project descriptions, posts, articles, and visual/banner specs.
+- Format and validate LinkedIn-ready assets against editable character limits and image specs.
 - Keep the agent focused on representation principles instead of generic resume-writing advice.
 
 This repo contains public-safe methodology and skills. Your real evidence belongs in a private repo.
@@ -54,15 +56,33 @@ Existing non-symlink paths are left untouched unless `--force` is used.
 
 Start by turning a real achievement into a private achievement packet using the schema. Keep the packet private.
 
-Then use the installed skill when you want a persuasive long-form narrative:
+Then use the installed skill that matches the target artifact:
 
 ```text
 Use article-leverage-story to turn this achievement packet into a confidentiality-safe article draft.
+Use curiosity-bio-story to draft a LinkedIn About section from this sanitized achievement packet.
+Use impact-bullets to turn this achievement packet into LinkedIn Experience bullets.
+Use linkedin-content-validation to save, format, validate, and repair LinkedIn-ready content files.
 ```
 
-The current public skill is optimized for story-driven articles and case-study narratives. It is not meant to be the final tool for resume bullets, compact LinkedIn bullets, or recruiter DMs.
+The skills cover long-form project stories, profile bios, resume and LinkedIn bullets, audience positioning, repeatable work-model articulation, project/profile README positioning, visual banner specs, and compression to strict limits.
 
 The skill should help with the thinking behind the representation, not just the prose: what to lead with, what proof to reveal when, how to create contrast without arrogance, and how to extract the reusable operating principle from the story.
+
+## LinkedIn Validation
+
+LinkedIn limits change. This repo stores limits in `config/linkedin_limits.yaml` instead of hardcoding them into Python.
+
+Use the deterministic workflow when drafting LinkedIn content into files:
+
+```bash
+python3 scripts/format_linkedin_text.py --write content
+python3 scripts/format_linkedin_text.py --check content
+python3 scripts/validate_linkedin_assets.py content
+python3 scripts/validate_linkedin_assets.py content --config config/linkedin_limits.yaml
+```
+
+See `docs/linkedin_content_workflow.md` for the full repair loop.
 
 ## Keep Private Data Out
 

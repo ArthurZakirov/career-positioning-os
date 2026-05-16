@@ -1,0 +1,14 @@
+repos:
+  - repo: local
+    hooks:
+      - id: format-linkedin-text-check
+        name: Check LinkedIn text formatting
+        entry: python3 scripts/format_linkedin_text.py --check content
+        language: system
+        pass_filenames: false
+
+      - id: validate-linkedin-assets
+        name: Validate LinkedIn character limits and image specs
+        entry: python3 scripts/validate_linkedin_assets.py content
+        language: system
+        pass_filenames: false

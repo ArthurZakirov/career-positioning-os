@@ -13,7 +13,9 @@
     "claude-code",
     "career",
     "portfolio",
-    "resume"
+    "resume",
+    "linkedin",
+    "personal-brand"
   ],
   "skills": "./skills/"
 }

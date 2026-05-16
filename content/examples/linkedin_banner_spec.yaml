@@ -1,0 +1,6 @@
+platform: linkedin
+asset_type: profile_banner
+path: assets/banner.png
+allow_scaled: false
+width: 1584
+height: 396

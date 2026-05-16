@@ -15,6 +15,7 @@ Public-safe:
 - schemas
 - dummy examples
 - reusable skills
+- deterministic validators and formatting scripts
 
 Private:
 
@@ -28,3 +29,17 @@ Private:
 ## Repository Status
 
 This is a public methodology and skills repo. Keep examples fictional or sanitized, and keep real user evidence in a private repository.
+
+## LinkedIn/Profile Assets
+
+When drafting LinkedIn or profile content into files, use the relevant writing skill first, then use `linkedin-content-validation`.
+
+Run:
+
+```bash
+python3 scripts/format_linkedin_text.py --write content
+python3 scripts/format_linkedin_text.py --check content
+python3 scripts/validate_linkedin_assets.py content
+```
+
+Do not remove blank lines just to satisfy a LinkedIn character limit when the configured count mode ignores newlines. Compress actual words instead.
