@@ -1,10 +1,8 @@
 # Career Positioning OS
 
-Public-safe scaffold for turning private work evidence into market-facing career signal.
+Public-safe skills, schemas, and examples for turning private work evidence into market-facing career signal.
 
-This folder is currently local only. Do not publish until its examples, schemas, and docs have been reviewed for private data leakage.
-
-## Current Artifacts
+## Contents
 
 - `schemas/achievement-packet.schema.json`: JSON Schema for structured achievement evidence.
 - `examples/dummy-achievements.yaml`: fictional examples that show the shape without using private evidence.
@@ -33,20 +31,18 @@ Existing non-symlink paths are left untouched unless `--force` is used.
 
 ## Install With skills.sh
 
-Once this repo exists on GitHub, it should support:
+Install from GitHub:
 
 ```bash
 npx skills add https://github.com/ArthurZakirov/career-positioning-os --list
 npx skills add https://github.com/ArthurZakirov/career-positioning-os --skill '*' -a codex -g -y
 ```
 
-This local scaffold has not yet been published to GitHub.
-
 ## Boundary
 
 This repo may contain methodology, templates, schemas, dummy examples, and reusable skills.
 
-Private evidence belongs in `../resume/` or a future private repo, not here.
+Private evidence belongs in a private repo, not here.
 
 Use this flow:
 

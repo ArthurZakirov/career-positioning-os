@@ -25,7 +25,6 @@ Private:
 - applications
 - compensation or review strategy
 
-## Current Scaffold Status
+## Repository Status
 
-This repo is a local scaffold. Do not assume it is ready to publish or install.
-
+This is a public methodology and skills repo. Keep examples fictional or sanitized, and keep real user evidence in a private repository.
