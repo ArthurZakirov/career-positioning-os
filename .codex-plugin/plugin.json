@@ -1,7 +1,7 @@
 {
   "name": "career-positioning-os",
   "version": "0.1.0",
-  "description": "Career Positioning OS packages public-safe skills and schemas for turning private work evidence into career signal.",
+  "description": "ProofStack packages public-safe skills and schemas for turning private work evidence into career signal.",
   "author": {
     "name": "Arthur Zakirov",
     "url": "https://github.com/ArthurZakirov"
@@ -22,9 +22,9 @@
   ],
   "skills": "./skills/",
   "interface": {
-    "displayName": "Career Positioning OS",
+    "displayName": "ProofStack",
     "shortDescription": "Skills for turning work evidence into career signal",
-    "longDescription": "Public-safe skills, schemas, validators, and examples for converting private work evidence into resume, LinkedIn, portfolio, interview, recruiter, profile, article, post, visual brand, and RenderCV handoff artifacts.",
+    "longDescription": "Public-safe skills, schemas, validators, and examples for converting private work evidence into resume, LinkedIn, portfolio, interview, recruiter, profile, article, post, visual brand, GitHub positioning, and RenderCV handoff artifacts.",
     "developerName": "Arthur Zakirov",
     "category": "Productivity",
     "capabilities": [

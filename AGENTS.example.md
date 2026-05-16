@@ -1,4 +1,4 @@
-# Career Positioning OS Agent Instructions
+# ProofStack Agent Instructions
 
 > Public-safe template. Do not put private career strategy, real employer details, applications, raw notes, or achievement packets in this repo.
 
@@ -59,3 +59,7 @@ npx skills add rendercv/rendercv-skill --skill rendercv -a codex -g -y
 Use `docs/reference_material.md` when the user wants to apply external career or persuasion material to a resume, LinkedIn profile, article, or positioning artifact.
 
 Treat external resources as calibration and principles only. Do not copy source phrasing. Apply the ideas to the user's own achievement evidence.
+
+## GitHub Positioning
+
+Use `github-repo-product-naming`, `github-repo-launch-page`, and `github-profile-authority-page` when the user is shaping ProofStack or the GitHub surface itself.

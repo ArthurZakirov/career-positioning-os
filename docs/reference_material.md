@@ -52,3 +52,13 @@ For resume rendering, combine this with the RenderCV handoff:
 ```text
 Use impact-bullets and compression-and-iteration to refine the content, then use rendercv-resume-handoff for the RenderCV YAML/PDF step.
 ```
+
+## GitHub Positioning
+
+The downloaded GitHub bundle is now embedded in this repo as skills:
+
+- `github-repo-product-naming`
+- `github-repo-launch-page`
+- `github-profile-authority-page`
+
+Use them with the `ProofStack` / `AgentDesk` / `SystemSmith` naming system when shaping public GitHub repos and profiles.
