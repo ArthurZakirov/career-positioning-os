@@ -1,25 +1,30 @@
 # Career Positioning OS
 
-Most career materials are written backwards: you start with a resume, LinkedIn profile, or portfolio page, then try to remember which stories prove the claim.
+Most career materials are written as summaries of what happened.
 
-Career Positioning OS starts from the source of truth instead:
+That is not enough. Good positioning turns real achievements into persuasive representations: structured clearly enough for a busy executive, emotionally legible enough for a reader to care, and specific enough that the claim feels earned.
+
+Career Positioning OS is a public-safe skill system for doing that with AI agents.
+
+It starts from the source of truth:
 
 ```text
 private work evidence
   -> structured achievement packet
-  -> sanitized public abstraction
+  -> persuasive, sanitized representation
   -> resume, LinkedIn, portfolio, recruiter, or interview artifact
 ```
 
-The goal is to make career positioning repeatable without leaking private details, overclaiming, or rewriting the same story from scratch for every surface.
+The skills encode reusable writing and persuasion principles: consulting-style top-down structure, narrative tension, SCQA, curiosity gaps, proof before claim, status-aware positioning, and direct-response copywriting patterns. The goal is to make achievement representation repeatable without leaking private details, overclaiming, or rewriting the same story from scratch for every surface.
 
 ## What It Helps With
 
-- Structure messy work evidence before writing public copy.
-- Preserve metrics, caveats, proof sources, and status distinctions.
+- Structure messy work evidence before turning it into public persuasion.
+- Preserve metrics, caveats, proof sources, and status distinctions so the writing stays credible.
 - Keep private evidence separate from public methodology.
-- Draft long-form project stories with a reusable narrative pattern.
-- Use the same achievement source for multiple later outputs.
+- Draft long-form project stories with narrative tension and reusable takeaways.
+- Turn one achievement source into different persuasive views for different audiences.
+- Keep the agent focused on representation principles instead of generic resume-writing advice.
 
 This repo contains public-safe methodology and skills. Your real evidence belongs in a private repo.
 
@@ -49,13 +54,15 @@ Existing non-symlink paths are left untouched unless `--force` is used.
 
 Start by turning a real achievement into a private achievement packet using the schema. Keep the packet private.
 
-Then use the installed skill when you want a long-form narrative:
+Then use the installed skill when you want a persuasive long-form narrative:
 
 ```text
 Use article-leverage-story to turn this achievement packet into a confidentiality-safe article draft.
 ```
 
 The current public skill is optimized for story-driven articles and case-study narratives. It is not meant to be the final tool for resume bullets, compact LinkedIn bullets, or recruiter DMs.
+
+The skill should help with the thinking behind the representation, not just the prose: what to lead with, what proof to reveal when, how to create contrast without arrogance, and how to extract the reusable operating principle from the story.
 
 ## Keep Private Data Out
 
