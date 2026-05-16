@@ -1,54 +1,72 @@
 # Career Positioning OS
 
-Public-safe skills, schemas, and examples for turning private work evidence into market-facing career signal.
+Most career materials are written backwards: you start with a resume, LinkedIn profile, or portfolio page, then try to remember which stories prove the claim.
 
-## Contents
+Career Positioning OS starts from the source of truth instead:
 
-- `schemas/achievement-packet.schema.json`: JSON Schema for structured achievement evidence.
-- `examples/dummy-achievements.yaml`: fictional examples that show the shape without using private evidence.
-- `docs/public-private-boundary.md`: rules for keeping real evidence out of the public repo.
-- `skills/article-leverage-story/SKILL.md`: public-safe long-form story/article drafting skill.
-- `.codex-plugin/plugin.json`: Codex plugin manifest.
-- `.agents/plugins/marketplace.json`: Codex marketplace metadata.
-- `.claude-plugin/`: Claude Code plugin metadata.
-- `scripts/setup-local-links.sh`: local symlink setup for Claude Code, `.agents`, and Codex skill directories.
+```text
+private work evidence
+  -> structured achievement packet
+  -> sanitized public abstraction
+  -> resume, LinkedIn, portfolio, recruiter, or interview artifact
+```
 
-## Local Setup
+The goal is to make career positioning repeatable without leaking private details, overclaiming, or rewriting the same story from scratch for every surface.
 
-Link the repo skills into local agent runtimes:
+## What It Helps With
+
+- Structure messy work evidence before writing public copy.
+- Preserve metrics, caveats, proof sources, and status distinctions.
+- Keep private evidence separate from public methodology.
+- Draft long-form project stories with a reusable narrative pattern.
+- Use the same achievement source for multiple later outputs.
+
+This repo contains public-safe methodology and skills. Your real evidence belongs in a private repo.
+
+## Install
+
+Install the skills for Codex with `skills.sh`:
+
+```bash
+npx skills add https://github.com/ArthurZakirov/career-positioning-os --skill '*' -a codex -g -y
+```
+
+List available skills first:
+
+```bash
+npx skills add https://github.com/ArthurZakirov/career-positioning-os --list
+```
+
+For local development from a cloned repo, link skills into Claude Code, `.agents`, and Codex skill directories:
 
 ```bash
 ./scripts/setup-local-links.sh
 ```
 
-The script links each skill directory into:
-
-- `~/.claude/skills/`
-- `~/.agents/skills/`
-- `~/.codex/skills/`
-
 Existing non-symlink paths are left untouched unless `--force` is used.
 
-## Install With skills.sh
+## Use
 
-Install from GitHub:
+Start by turning a real achievement into a private achievement packet using the schema. Keep the packet private.
 
-```bash
-npx skills add https://github.com/ArthurZakirov/career-positioning-os --list
-npx skills add https://github.com/ArthurZakirov/career-positioning-os --skill '*' -a codex -g -y
-```
-
-## Boundary
-
-This repo may contain methodology, templates, schemas, dummy examples, and reusable skills.
-
-Private evidence belongs in a private repo, not here.
-
-Use this flow:
+Then use the installed skill when you want a long-form narrative:
 
 ```text
-private raw notes
-  -> private achievement packet
-  -> sanitized public abstraction
-  -> public artifact
+Use article-leverage-story to turn this achievement packet into a confidentiality-safe article draft.
+```
+
+The current public skill is optimized for story-driven articles and case-study narratives. It is not meant to be the final tool for resume bullets, compact LinkedIn bullets, or recruiter DMs.
+
+## Keep Private Data Out
+
+Do not put real raw notes, employer details, internal links, private metrics, target jobs, applications, compensation, or review strategy in this repo.
+
+Use fictional examples here. Keep real evidence in a private repo, then publish only reviewed and sanitized outputs.
+
+## Example
+
+See the dummy achievement examples for the packet shape:
+
+```bash
+cat examples/dummy-achievements.yaml
 ```
