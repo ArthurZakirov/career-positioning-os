@@ -53,3 +53,9 @@ Install it when needed:
 ```bash
 npx skills add rendercv/rendercv-skill --skill rendercv -a codex -g -y
 ```
+
+## Reference Material
+
+Use `docs/reference_material.md` when the user wants to apply external career or persuasion material to a resume, LinkedIn profile, article, or positioning artifact.
+
+Treat external resources as calibration and principles only. Do not copy source phrasing. Apply the ideas to the user's own achievement evidence.

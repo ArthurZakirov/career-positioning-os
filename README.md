@@ -105,6 +105,16 @@ Use rendercv to create or edit the RenderCV YAML file and render the PDF.
 
 See `docs/rendercv_resume_workflow.md`.
 
+## Reference Material
+
+Some external resources are useful as calibration material when iterating on resumes, LinkedIn copy, articles, and value framing:
+
+- *The Google Resume* by Gayle Laakmann McDowell
+- A Life Engineered
+- Acquisition.com Offers Course / `$100M Offers`
+
+See `docs/reference_material.md` for how to use them with agents without copying source material or mixing private evidence into the public repo.
+
 ## Keep Private Data Out
 
 Do not put real raw notes, employer details, internal links, private metrics, target jobs, applications, compensation, or review strategy in this repo.
