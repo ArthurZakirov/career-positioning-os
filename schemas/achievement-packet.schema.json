@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/ArthurZakirov/career-positioning-os/main/schemas/achievement-packet.schema.json",
+  "$id": "https://raw.githubusercontent.com/ArthurZakirov/ProofStack/main/schemas/achievement-packet.schema.json",
   "title": "Achievement Packet",
   "description": "Public-safe schema for structuring private career evidence before turning it into resume, LinkedIn, portfolio, recruiter, or interview artifacts.",
   "type": "object",

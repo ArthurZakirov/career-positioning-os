@@ -37,13 +37,13 @@ This repo contains public-safe methodology and skills. Your real evidence belong
 Install the skills for Codex with `skills.sh`:
 
 ```bash
-npx skills add https://github.com/ArthurZakirov/career-positioning-os --skill '*' -a codex -g -y
+npx skills add https://github.com/ArthurZakirov/ProofStack --skill '*' -a codex -g -y
 ```
 
 List available skills first:
 
 ```bash
-npx skills add https://github.com/ArthurZakirov/career-positioning-os --list
+npx skills add https://github.com/ArthurZakirov/ProofStack --list
 ```
 
 For local development from a cloned repo, link skills into Claude Code, `.agents`, and Codex skill directories:

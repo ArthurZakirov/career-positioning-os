@@ -72,12 +72,12 @@ AgentDesk    -> agent-ready workstation setup
 SystemSmith  -> engineering methods for code, agents, and architecture
 ```
 
-This is stronger than pinning generic folders such as:
+This is stronger than pinning generic repo names such as:
 
 ```text
-career-positioning-os
-workstation-setup
-engineering-methods
+proofstack
+agentdesk
+systemsmith
 ```
 
 The profile should present the product names, while subtitles explain the literal use case.
