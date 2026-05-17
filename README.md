@@ -69,6 +69,7 @@ Use rendercv-resume-handoff to turn resume-ready content into a RenderCV handoff
 Use github-repo-product-naming to choose a product name, repo slug, and tagline.
 Use github-repo-launch-page to turn a repo into a launch-ready project page.
 Use github-profile-authority-page to turn GitHub into a credible profile landing page.
+Use architecture-diagram-gpt-imagegen to turn a system description or Mermaid flow into a polished diagram-image prompt.
 ```
 
 The skills cover long-form project stories, profile bios, resume and LinkedIn bullets, audience positioning, repeatable work-model articulation, project/profile README positioning, visual banner specs, GitHub public positioning, and compression to strict limits.
