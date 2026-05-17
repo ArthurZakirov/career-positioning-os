@@ -1,9 +1,5 @@
 # ProofStack
 
-![ProofStack career positioning pipeline](assets/README-hero.png)
-
-![ProofStack positioning framework](assets/README-alt.png)
-
 Most career materials are written as summaries of what happened.
 
 That is not enough. Good positioning turns real achievements into persuasive representations: structured clearly enough for a busy executive, emotionally legible enough for a reader to care, and specific enough that the claim feels earned.
