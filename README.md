@@ -70,9 +70,10 @@ Use github-repo-product-naming to choose a product name, repo slug, and tagline.
 Use github-repo-launch-page to turn a repo into a launch-ready project page.
 Use github-profile-authority-page to turn GitHub into a credible profile landing page.
 Use architecture-diagram-gpt-imagegen to turn a system description or Mermaid flow into a polished diagram-image prompt.
+Use value-communication-offer to package an article, repo, product, or offer into a clickable title plus thumbnail/value unit.
 ```
 
-The skills cover long-form project stories, profile bios, resume and LinkedIn bullets, audience positioning, repeatable work-model articulation, project/profile README positioning, visual banner specs, GitHub public positioning, and compression to strict limits.
+The skills cover long-form project stories, profile bios, resume and LinkedIn bullets, audience positioning, repeatable work-model articulation, project/profile README positioning, visual banner specs, clickable title/thumbnail value units, GitHub public positioning, and compression to strict limits.
 
 The skill should help with the thinking behind the representation, not just the prose: what to lead with, what proof to reveal when, how to create contrast without arrogance, and how to extract the reusable operating principle from the story.
 

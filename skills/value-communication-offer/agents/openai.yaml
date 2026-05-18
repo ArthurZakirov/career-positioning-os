@@ -1,0 +1,4 @@
+interface:
+  display_name: "Value Communication Offer"
+  short_description: "Turn a promise into a clickable title plus thumbnail/value unit."
+  default_prompt: "Create a title and thumbnail concept that communicates value for this article, repo, video, offer, or product."
