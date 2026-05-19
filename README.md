@@ -28,6 +28,7 @@ The skills encode reusable writing and persuasion principles: consulting-style t
 - Format and validate LinkedIn-ready assets against editable character limits and image specs.
 - Hand off resume-ready content to RenderCV for YAML-driven PDF rendering without reimplementing RenderCV.
 - Name and launch GitHub repos and GitHub profiles with product-style positioning.
+- Review homepage, portfolio, headline, and repository copy for reader value, credible authority, and safe claims.
 - Keep the agent focused on representation principles instead of generic resume-writing advice.
 
 This repo contains public-safe methodology and skills. Your real evidence belongs in a private repo.
@@ -71,9 +72,17 @@ Use github-repo-launch-page to turn a repo into a launch-ready project page.
 Use github-profile-authority-page to turn GitHub into a credible profile landing page.
 Use architecture-diagram-gpt-imagegen to turn a system description or Mermaid flow into a polished diagram-image prompt.
 Use value-communication-offer to package an article, repo, product, or offer into a clickable title plus thumbnail/value unit.
+Use authority-first-headlines to make titles and hero lines lead with credible proof.
+Use proof-promise-plan-openers to create strong openings for articles, READMEs, posts, videos, and guides.
+Use reader-first-portfolio-architecture to structure a portfolio around what readers can learn, use, and trust.
+Use outcome-first-experience-bullets to rewrite experience bullets so the result is more visible than the task.
+Use guide-title-from-accomplishment to turn achievements into useful guide titles.
+Use tool-positioning-for-repositories to describe repos as practical tools readers can use.
+Use credible-claims-and-safe-authority to keep numbers, authority, and borrowed credibility truthful.
+Use homepage-copy-review-checklist to audit homepage copy for clarity, authority, reader value, layout, proof, and tone.
 ```
 
-The skills cover long-form project stories, profile bios, resume and LinkedIn bullets, audience positioning, repeatable work-model articulation, project/profile README positioning, visual banner specs, clickable title/thumbnail value units, GitHub public positioning, and compression to strict limits.
+The skills cover long-form project stories, profile bios, resume and LinkedIn bullets, audience positioning, repeatable work-model articulation, project/profile README positioning, portfolio architecture, homepage copy review, authority-backed headlines, safe claims, visual banner specs, clickable title/thumbnail value units, GitHub public positioning, and compression to strict limits.
 
 The skill should help with the thinking behind the representation, not just the prose: what to lead with, what proof to reveal when, how to create contrast without arrogance, and how to extract the reusable operating principle from the story.
 
